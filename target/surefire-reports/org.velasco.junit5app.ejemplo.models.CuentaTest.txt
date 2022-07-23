@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.velasco.junit5app.ejemplo.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 61, Failures: 0, Errors: 3, Skipped: 9, Time elapsed: 5.554 s <<< FAILURE! - in org.velasco.junit5app.ejemplo.models.CuentaTest
+testDebitoCuentaCsvSourse2{String, String, String, String}[6]  Time elapsed: 0.016 s  <<< ERROR!
+org.velasco.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.velasco.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadas.testDebitoCuentaCsvSourse2(CuentaTest.java:343)
+
+testDebitoCuentaCsvFileSource{String}  Time elapsed: 0.021 s  <<< ERROR!
+org.junit.platform.commons.PreconditionViolationException: Classpath resource [/data.csv] does not exist
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}  Time elapsed: 0.024 s  <<< ERROR!
+org.junit.platform.commons.PreconditionViolationException: Classpath resource [/data2.csv] does not exist
+
